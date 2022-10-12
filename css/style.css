@@ -216,16 +216,19 @@
   grid-column: 2/3;
   grid-row: 1/2;
   background-color:Orchid;
+  display: flex;
 }
 
 .service-grid-box3 {
   grid-column: 2/3;
   grid-row: 2/3;
   background-color: Plum;
+  display: flex;
 }
 
 .box1-contents {
   width: 80%;
+  padding: 40px 40px;
 }
 
 .box1-img {
@@ -256,14 +259,15 @@
 .box2-title {
   font-size: 12px;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .box2-txt {
   font-size: 10px;
   color: white;
   line-height: 14px;
-  padding: 10px 20px;
+  margin: 20px auto;
+  text-align: left;
 }
 
 .box3-img {
@@ -275,14 +279,19 @@
 .box3-title {
   font-size: 12px;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .box3-txt {
   font-size: 10px;
   color: white;
   line-height: 14px;
-  padding: 10px 20px;
+  text-align: left;
+  margin: 20px auto;
+}
+
+.txt-contents {
+  padding: 40px 10px;
 }
 
 .blog {
@@ -322,26 +331,35 @@
   width: 240px;
   background-color: white;
   border-radius: 10px 10px 0 0;
+  position: relative;
 }
 
 .blog-contents-card-center {
   width: 240px;
   background-color: white;
   border-radius: 10px 10px 0 0;
+  position: relative;
 }
 
 .blog-contents-card-right {
   width: 240px;
   background-color: white;
   border-radius: 10px 10px 0 0;
+  position: relative;
 }
 
 .card-tag {
-  font-size: 11px;
-  background-color: rgb(177, 18, 118);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  font-size: 12px;
   color: white;
-  display: inline-block;
-  padding: 5px 10px;
+  background-color: rgb(177, 18, 118);
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px 0 0 0;
 }
 
 .title {
@@ -352,9 +370,12 @@
   line-height: 20px;
 }
 
-.card-img img{
+.card-img img {
   width: 100%;
   height: auto;
+  display: inline-block;
+  border-radius: 10px 10px 0 0;
+
 }
 
 .detail {
@@ -509,21 +530,23 @@ th {
 .form::before {
   content: "";
   position: absolute;
-  width: 2px;
-  height: 50px;
-  background-color: rgb(177, 18, 118);
   top: 50%;
+  left: 20px;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-50%); 
 }
 
-.form::before {
+.form::after {
   content: "";
   position: absolute;
-  top: 50%;
-  left: 15px;
-  background: url(img/mailicon.svg) no-repeat;
-  background-size: cover;
-  width: 10x;
-  height: 10px;
+  left: 50%;
+  background-color: rgb(177, 18, 118);
+  width: 2px;
+  height: 25px;
+  transform: translateY(-50px);
 }
 
 small {
