@@ -36,10 +36,11 @@
 }
 
 .firstview-title-top {
-  font-size: 32px;
+  font-size: 48px;
   line-height: 64px;
   font-family: ;
   color: rgb(177, 18, 118);
+  font-family: 'Indie Flower', cursive;
 }
 
 .firstview-title-bottom {
@@ -72,9 +73,10 @@
   margin: 25px auto;
 }
 .news-title-sub {
-  font-size: 10px;
+  font-size: 16px;
   color: rgb(177, 18, 118);
   margin: 10px auto;
+  font-family: 'Indie Flower', cursive;
 }
 
 .news-title-main {
@@ -133,10 +135,11 @@
 }
 
 .about-title-sub {
-  font-size: 10px;
+  font-size: 16px;
   color: rgb(177, 18, 118);
   margin: 10px 0px;
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 
 .about-title-main {
@@ -189,9 +192,10 @@
 }
 
 .service-title-sub {
-  font-size: 10px;
+  font-size: 16px;
   color:rgb(177, 18, 118);
   margin: 10px auto;
+  font-family: 'Indie Flower', cursive;
 }
 
 .service-title-main {
@@ -309,9 +313,10 @@
 }
 
 .blog-title-sub {
-  font-size: 10px;
+  font-size: 16px;
   color: rgb(177, 18, 118);
   margin: 10px 0px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .blog-title-main {
@@ -424,9 +429,10 @@
 }
 
 .company-title-sub {
-  font-size: 10px;
+  font-size: 16px;
   color: rgb(177, 18, 118);
   margin: 10px auto;
+  font-family: 'Indie Flower', cursive;
 }
 
 .company-title-main {
