@@ -65,7 +65,7 @@
 }
 
 .news-inner {
-  width: 60%;
+  width: 50%;
   margin: 75px auto;
 }
 
@@ -126,7 +126,7 @@
   padding: 20px 0;
 }
 .about-inner {
-  width: 70%;
+  width: 60%;
   margin: 0px auto;
 }
 
@@ -183,7 +183,7 @@
   padding-bottom: 40px;
 }
 .service-inner {
-  width: 70%;
+  width: 60%;
   margin: 0px auto;
 }
 
@@ -304,7 +304,7 @@
 }
 
 .blog-inner {
-  width: 70%;
+  width: 60%;
   margin: 0px auto;
 }
 
@@ -405,7 +405,7 @@
 }
 
 .company-inner {
-  width: 60%;
+  width: 50%;
   margin: 50px auto;
 }
 
