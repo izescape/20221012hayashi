@@ -156,6 +156,7 @@
 
 .about-detail {
   width: 50%;
+  padding: 0 30px;
 }
 
 .about-detail-1 {
@@ -175,8 +176,7 @@
   width: 300px;
   height: auto;
   display: block;
-  margin: 0 0 0 auto;
-  
+  padding: 0 30px;
 }
 
 .service {
@@ -330,24 +330,10 @@
   justify-content: space-between;
 }
 
-.blog-contents-card-left {
-  width: 240px;
+.blog-contents-card-contents {
+  width: 200px;
   background-color: white;
-  border-radius: 10px 10px 0 0;
-  position: relative;
-}
-
-.blog-contents-card-center {
-  width: 240px;
-  background-color: white;
-  border-radius: 10px 10px 0 0;
-  position: relative;
-}
-
-.blog-contents-card-right {
-  width: 240px;
-  background-color: white;
-  border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 10px 10px;
   position: relative;
 }
 
@@ -382,7 +368,6 @@
   height: auto;
   display: inline-block;
   border-radius: 10px 10px 0 0;
-
 }
 
 .detail {
